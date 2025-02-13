@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Facebook } from "lucide-react"
+import { LinkedinIcon, MessageSquare } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { CookieConsent } from "./cookie-consent"
 
@@ -14,16 +14,16 @@ export default function ConferencePage() {
           </Link>
           <div className="hidden md:flex items-center gap-6 text-white">
             <Link href="#" className="hover:text-gray-200">
-              ホーム
+              Home
             </Link>
             <Link href="#" className="hover:text-gray-200">
-              ICLTについて
+              About FFF
             </Link>
             <Link href="#" className="hover:text-gray-200">
-              委員会
+              Committee
             </Link>
             <Link href="#" className="hover:text-gray-200">
-              登録・投稿
+              Registration & Submission
             </Link>
             <Link href="#" className="hover:text-gray-200">
               MORE ▼
@@ -45,7 +45,8 @@ export default function ConferencePage() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="container mx-auto px-4 text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                The 15th International Conference on Logistics & Transport 2025
+              Freight Forwarder's Festival in Japan <br></br>
+              Energizing Logistics Industry
               </h1>
             </div>
           </div>
@@ -53,47 +54,50 @@ export default function ConferencePage() {
 
         <section className="py-20 container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl text-center text-gray-600 mb-16">
-            フィジカルインターネット - 物流の新境地
+          A place for forwarders to connect, learn, and enjoy
           </h2>
 
           <div className="text-center mb-16">
-            <h3 className="text-2xl text-gray-600 mb-8">東京 - 日本 - 2025年11月</h3>
+            <h3 className="text-2xl text-gray-600 mb-8">Tokyo - Japan - September 2025</h3>
             <p className="max-w-3xl mx-auto text-gray-600">
-              今年のテーマは「サプライチェーンマネジメント：再考 - フィジカルインターネットによる接続性の実現」です。
-              投稿された要旨と論文は二重ブラインド査読され、最優秀論文は国際物流研究応用ジャーナルへの掲載が検討されます。
+            FFF is an international logistics community that fosters real networking, learning, and cultural exchange.
+            Join us to expand your network, explore the future of logistics, and experience Japanese culture—all in one place.
+
+Learn More
             </p>
           </div>
 
           <div className="text-center mb-16">
-            <h4 className="text-xl mb-4">ICLT2024-論文募集要項 (jpg)</h4>
+            <h4 className="text-xl mb-4">Join our Discord Community</h4>
             <Button variant="secondary" className="bg-gray-600 text-white hover:bg-gray-700">
-              ダウンロード
+              Discord
             </Button>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-6 border rounded-lg">
-              <h5 className="font-semibold mb-4">調達・供給管理</h5>
+              <h5 className="font-semibold mb-4">🚢 Freight Forwarder Community</h5>
               <ul className="space-y-2 text-gray-600">
-                <li>生産計画と予測</li>
-                <li>在庫管理</li>
-                <li>倉庫管理</li>
+                <li>Strengthen your global network</li>
+                <li>Exchange insights across generations</li>
+                <li>Open discussions in a closed environment</li>
               </ul>
             </div>
             <div className="p-6 border rounded-lg">
-              <h5 className="font-semibold mb-4">輸送システム</h5>
+              <h5 className="font-semibold mb-4">Future-Oriented Learning</h5>
               <ul className="space-y-2 text-gray-600">
-                <li>マルチモーダル輸送</li>
-                <li>シンクロモーダル輸送</li>
-                <li>都市物流</li>
+                <li>AI, Web3.0, and DX trends</li>
+                <li>The latest in logistics technology</li>
+                <li>Innovation & idea creation</li>
               </ul>
             </div>
             <div className="p-6 border rounded-lg">
-              <h5 className="font-semibold mb-4">革新技術</h5>
+              <h5 className="font-semibold mb-4">🎌 Japanese Cultural Experience
+              </h5>
               <ul className="space-y-2 text-gray-600">
-                <li>サプライチェーンの破壊的技術</li>
-                <li>意思決定システム</li>
-                <li>スマートロジスティクス</li>
+                <li>Traditional tea ceremony & calligraphy</li>
+                <li>Tokyo sightseeing & hospitality</li>
+                <li>Cross-cultural inspiration</li>
               </ul>
             </div>
           </div>
@@ -101,10 +105,10 @@ export default function ConferencePage() {
 
         <section className="py-20 bg-gray-100">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl text-gray-600 mb-8">お問い合わせ</h2>
+            <h2 className="text-3xl text-gray-600 mb-8">Contact</h2>
             <div className="flex justify-center">
               <Link href="#" className="text-blue-600 hover:text-blue-700">
-                <Facebook className="w-8 h-8" />
+                <LinkedinIcon className="w-8 h-8" /> <MessageSquare className="w-8 h-8" /> 
               </Link>
             </div>
           </div>
@@ -113,8 +117,8 @@ export default function ConferencePage() {
 
       <footer className="bg-gray-600 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-4">ICLT2024 | ソウル | 韓国</p>
-          <p>Copyright © ICLT 2024 - All Rights Reserved.</p>
+          <p className="mb-4">FFF2025 | Tokyo | Japan</p>
+          <p>Copyright © FFF2025 - All Rights Reserved.</p>
         </div>
       </footer>
 
